@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Panda Restaurant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Panda</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Menu</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!--Hero section-->
+    <section class="py-5 bg-light">
+        <div class="container">
+
+            <div class="row">
+
+                <!--Left side-->
+                <div class="col-md-6">
+                    <h1 class="display-4">Welcome to Panda Restaurant</h1>
+                    <p class="lead">Experience the best dining with us.</p>
+                    <button class="btn btn-primary btn-lg" type="button">Order Now</button>
+
+                </div>
+
+                <!--Right side-->
+                <div class="col-md-6">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4" class="img-fluid rounded">
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!--Menu section-->
+    <section class="py-5">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Fresh Garden Salad</h5>
+                            <p class="card-text">A healthy mix of crisp lettuce, cherry tomatoes, cucumbers, and carrots, tossed with a light vinaigrette dressing.</p>
+
+                            <p class="text-primary">$25.00</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Delicious Margherita Pizza</h5>
+                            <p class="card-text">A classic Italian pizza with fresh mozzarella, tomato sauce, and basil leaves. Perfectly baked with a crispy crust.</p>
+
+                            <p class="text-primary">$100.00</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Beef Burger</h5>
+                            <p class="card-text">Classic beef burger with fries and drink.</p>
+                            <p class="text-primary">$75.00</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!--About section-->
+    <section class="py-5 bg-light">
+        <div class="container">
+
+            <div class="row">
+
+                <!--Left side-->
+                <div class="col-md-6">
+                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5" class="img-fluid rounded">
+                </div>
+
+                <!--Right side-->
+                <div class="col-md-6">
+                    <h1 class="display-4">About us</h1>
+                    <p class="lead">We are good cook from panda team.</p>
+                    <p class="lead">Founded in 2010, Panda panda</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!--Contact section-->
+
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">message</label>
+                                    <textarea class="form-control" id="message" rows="3"></textarea>
+                                </div>
+                               
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Footer-->
+    <footer class="bg-dark text-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="text-light">Panda Restaurant</h5>
+                    <p>123 Panda Street, Food City</p>
+
+                </div>
+                
+                <div class="col-md-6 text-end">
+                    <h5>Hours</h5>
+                    <p>Monday - Friday: 10 AM - 10 PM</p>
+                    
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
